@@ -27,4 +27,13 @@ public class Arranjo {
 		}
 		return soma;
 	}
+	public Integer repeticoes(int n) {
+		Integer cont = 0;
+		for (int i = 0; i < 10; i++) {
+			if (a[i]==n) {
+				cont++;
+			}
+		}
+		return cont;
+	}
 }

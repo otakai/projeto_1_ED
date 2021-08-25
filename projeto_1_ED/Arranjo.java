@@ -20,4 +20,11 @@ public class Arranjo {
 		}
 		return max;
 	}
+	public Integer soma() {
+		Integer soma = a[0];
+		for (int i = 1; i < 10; i++) {
+			soma += a[i];
+		}
+		return soma;
+	}
 }
